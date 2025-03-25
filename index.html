@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <nav>
+        <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Hangga">Hangga</h1>
+            <p class="typing-text">Full Stack Developer</p>
+            <button class="btn">View My Work</button>
+        </div>
+        <div class="hero-particles"></div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title" data-text="About Me">About Me</h2>
+        <div class="skills-grid">
+            <div class="skill-card" data-tilt>
+                <i class="fas fa-user fa-3x"></i>
+                <h3>Experience</h3>
+                <p>Full-Stack Developer (In Progress) (2024 – Present)</p>
+                <p>Completing the Full-Stack Developer curriculum on FreeCodeCamp.</p>
+                <p>Learning HTML, CSS, JavaScript, React, Node.js, and databases.</p>
+                <p>Building hands-on projects to apply knowledge in real-world scenarios.</p>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fas fa-graduation-cap fa-3x"></i>
+                <h3>Education</h3>
+                <p>PB University - Computer Science (Incomplete)</p>
+                <p>FreeCodeCamp – Full Stack Developer (Ongoing Learning)</p>
+                <p>Self-Taught Web Developer – (Ongoing Learning)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title" data-text="Technical Skills">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card" data-tilt>
+                <i class="fab fa-html5 fa-3x"></i>
+                <h3>HTML5</h3>
+                <p>Semantic markup & accessibility</p>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fab fa-css3-alt fa-3x"></i>
+                <h3>CSS3</h3>
+                <p>Responsive design & animations</p>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fab fa-js fa-3x"></i>
+                <h3>JavaScript</h3>
+                <p>ES6+ & modern frameworks</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title" data-text="Recent Projects">Recent Projects</h2>
+        <div class="projects-container">
+            <div class="project-card" data-tilt>
+                <img src="Project 1.jpeg" alt="Project 1">
+                <div class="project-info">
+                    <h3>E-commerce Platform</h3>
+                    <p>Full-stack shopping platform with React & Node.js</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title" data-text="Get In Touch">Get In Touch</h2>
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" rows="5" required></textarea>
+                <button class="btn" type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Bung Hangga. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
